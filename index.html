@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Testes JS</title>
+        <meta charset="utf-8">
+        <script type="text/javascript" src="./js/main.js"></script>
+    </head>
+    <body onload="load()">
+        <button type="button" onclick="botao()">Clique</button>
+        <h3 id="premio" onclick="redirecionar()"></h3>
+        <h3 id="mouse" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</h3>
+        <h3 id="mouse2" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</h3>
+        <select onchange="Change(this)">
+            <option value="0">Selcione uma opção</option>
+            <option value="1">valor 1</option>
+            <option value="2">valor 2</option>
+            <option value="3">valor 3</option>
+        </select>
+    </body>
+</html>
